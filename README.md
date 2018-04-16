@@ -20,7 +20,7 @@ docker run --rm -ti \
     -v "${PWD}/.gems:/usr/local/bundle" \
     -p "4000:4000" \
     mathieubrun/jekyll:latest
-`````
+````
 
 ## Run with custom parameters (for example --incremental)
 
@@ -31,4 +31,4 @@ docker run --rm -ti \
     -v "${PWD}/.gems:/usr/local/bundle" \
     -p "4000:4000" \
     mathieubrun/jekyll:latest exec jekyll serve -H 0.0.0.0 --incremental
-`````
+````
