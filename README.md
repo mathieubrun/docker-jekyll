@@ -9,7 +9,7 @@ docker run --rm -ti \
     -v "${PWD}/.gems:/usr/local/bundle" \
     -p "4000:4000" \
     mathieubrun/jekyll:latest install
-`````
+````
 
 ## Run with default parameters
 
