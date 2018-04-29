@@ -9,4 +9,4 @@ EXPOSE 4000
 
 ENTRYPOINT [ "bundle" ]
 
-CMD [ "exec", "jekyll", "serve", "-H", "0.0.0.0" ]
+CMD [ "exec", "jekyll", "serve", "-H", "0.0.0.0", "--force_polling" ]
